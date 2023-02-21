@@ -7,17 +7,17 @@
 
 int main(void)
 {
-	int a;
+	int d;
 
-	for (a = 0; a < 100; a++)
+	for (d = '0'; d <= '9'; d++)
 	{
-		putchar(a + '0');
-		if (a < 9)
-		{
-			putchar (',');
-			putchar ('\');
-		}
+	putchar (d);
+	if (d != '9')
+	{
+	putchar (',');
+	putchar (' ');
+	}
 	}
 	putchar ('\n');
-	putchar (0);
+	return (0);
 }
