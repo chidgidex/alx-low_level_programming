@@ -1,4 +1,4 @@
-##include "main.h"
+#include "main.h"
 
 /**
  * puts2 - Prints every other character of a string
@@ -6,7 +6,7 @@
  * Return: void
  */
 
-void puts(char *str)
+void puts2(char *str)
 
 {
 	int i;
